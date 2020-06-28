@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Proxima Nova';
+
+    src: url('https://nomail.com.ua/files/eot/b7ae0d38a8eb699e0938a474bf8e0aa5.eot?#iefix') format('embedded-opentype'),
+        url('https://nomail.com.ua/files/woff/b7ae0d38a8eb699e0938a474bf8e0aa5.woff') format('woff'),
+        url('https://nomail.com.ua/files/woff2/b7ae0d38a8eb699e0938a474bf8e0aa5.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-UltraLight';
+    src: local('HelveticaNeueCyr-UltraLight'), url('https://nomail.com.ua/files/woff/b7ae0d38a8eb699e0938a474bf8e0aa5.woff') format('woff');
+}
+
+
+
+
+/*````````````````````````````````` noMail.com.ua - Каталог шрифтов ```````````````````````````````````````*/
+
+
+#helveticaneuecyrultralight {
+    font-family: 'Proxima Nova';
+}
+
+.fontb7ae0d38a8eb699e0938a474bf8e0aa5 {
+    font-family: 'Proxima Nova';
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    background: black url("img/main-bg.png") top right -170% no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1060px;
+    margin: auto;
+}
+
+.container header {
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.container .logo {
+    margin-right: 70px;
+}
+
+.container .navigation {}
+
+.container .nav__link {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.container main {}
+
+.container .hero {}
+
+.container .hero__subtitle {
+    display: block;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+    margin-top: 78px;
+}
+
+.container .hero__title {
+    margin-top: 5px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.container .hero__description {}
+
+.container .hero__premier {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B02000;
+    margin-bottom: 5px;
+}
+
+.container .hero__date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    display: block;
+    margin-bottom: 46px;
+}
+
+.container .button-play {
+    background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%);
+    border-radius: 300px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 25px 34px;
+    padding-right: 80px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    position: relative;
+    display: inline-block;
+}
+
+.button-play:after {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    background: white url('img/play.svg') center no-repeat;
+    display: block;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+}
+
+.button-play:before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    border-radius: 50%;
+    right: -8px;
+    top: -8px;
+}
+
+.episodes {
+    padding: 60px 0;
+
+}
+
+.episodes .epesodes-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+
+.episodes .slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.episodes .slider__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    min-height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.slider__item:hover {
+    box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
+    background: rgba(64, 101, 255, 0.86);
+}
+
+.episode-4 {
+    background: linear-gradient(0deg,
+            rgba(80, 80, 80, 0.86), rgba(80, 80, 80, 0.86)), url(img/episode-4.png) center / cover;
+}
+
+.episode-1 {
+    background: linear-gradient(0deg, rgba(80, 80, 80, 0.86), rgba(80, 80, 80, 0.86)), url(img/episode-1.png) center / cover;
+}
+
+.episode-5 {
+    background: linear-gradient(0deg, rgba(80, 80, 80, 0.86), rgba(80, 80, 80, 0.86)), url(img/episode-5.png) center / cover;
+}
+
+.episode-6 {
+    background: linear-gradient(0deg, rgba(80, 80, 80, 0.86), rgba(80, 80, 80, 0.86)), url(img/episode-6.png) center / cover;
+}
+
+.episodes .slider__year {}
+
+.episodes .slider__title {}
+
+.episodes br {}
+
+.episodes .slider__rating {}
+
+.star {
+    background: url(img/star.svg) no-repeat center;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.star-o {
+    background: url(img/star-o.svg) no-repeat center;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.episodes .slider__rating-label {
+    margin-right: 10px;
+}
+
+.slider__nav--left {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent url('img/left-arrow.svg') no-repeat center;
+    cursor: pointer;
+    outline: none;
+    margin-right: 15px;
+}
+
+.slider__nav--right {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent url('img/right-arrow.svg') no-repeat center;
+    cursor: pointer;
+    outline: none;
+}
+
+.slider__nav--left span,
+.slider__nav--right span {
+    display: none;
+}
+@media (max-width: 600px) {
+    .hero__subtitle{
+        font-size: 24px;
+    }
+    .hero__title {
+        font-size: 36px;
+        line-height: 120%;
+    }
+    .hero__description {
+        font-size: 16px;
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo {
+        margin-bottom: 30px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__link {
+        margin-bottom: 10px;
+    }
+}
